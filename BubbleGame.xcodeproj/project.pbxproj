@@ -61,6 +61,13 @@
 		517CF2D728475EEA00D1DF3E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517CF29E28475EEA00D1DF3E /* Color.swift */; };
 		517CF2D828475EEA00D1DF3E /* AlertControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517CF2A028475EEA00D1DF3E /* AlertControllerFactory.swift */; };
 		517CF2D928475EEA00D1DF3E /* AlertActionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517CF2A128475EEA00D1DF3E /* AlertActionFactory.swift */; };
+		517CF2DC284A066900D1DF3E /* BaseModalTransitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517CF2DB284A066900D1DF3E /* BaseModalTransitionVC.swift */; };
+		517CF2DE284A11E500D1DF3E /* UStepgShotGoodsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517CF2DD284A11E500D1DF3E /* UStepgShotGoodsVC.swift */; };
+		517CF2E0284A31DE00D1DF3E /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517CF2DF284A31DE00D1DF3E /* Float+Extension.swift */; };
+		517CF2E2284A3B3700D1DF3E /* UStepgStateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517CF2E1284A3B3700D1DF3E /* UStepgStateButton.swift */; };
+		517CF2E4284C66A000D1DF3E /* UStepgCoinPayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517CF2E3284C66A000D1DF3E /* UStepgCoinPayVC.swift */; };
+		517CF2E6284CB60C00D1DF3E /* UStepgPaySuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517CF2E5284CB60C00D1DF3E /* UStepgPaySuccessVC.swift */; };
+		517CF2E8284CBB5400D1DF3E /* UStepgPayTipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517CF2E7284CBB5400D1DF3E /* UStepgPayTipsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -121,6 +128,13 @@
 		517CF29E28475EEA00D1DF3E /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		517CF2A028475EEA00D1DF3E /* AlertControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertControllerFactory.swift; sourceTree = "<group>"; };
 		517CF2A128475EEA00D1DF3E /* AlertActionFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertActionFactory.swift; sourceTree = "<group>"; };
+		517CF2DB284A066900D1DF3E /* BaseModalTransitionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModalTransitionVC.swift; sourceTree = "<group>"; };
+		517CF2DD284A11E500D1DF3E /* UStepgShotGoodsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UStepgShotGoodsVC.swift; sourceTree = "<group>"; };
+		517CF2DF284A31DE00D1DF3E /* Float+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Extension.swift"; sourceTree = "<group>"; };
+		517CF2E1284A3B3700D1DF3E /* UStepgStateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UStepgStateButton.swift; sourceTree = "<group>"; };
+		517CF2E3284C66A000D1DF3E /* UStepgCoinPayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UStepgCoinPayVC.swift; sourceTree = "<group>"; };
+		517CF2E5284CB60C00D1DF3E /* UStepgPaySuccessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UStepgPaySuccessVC.swift; sourceTree = "<group>"; };
+		517CF2E7284CBB5400D1DF3E /* UStepgPayTipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UStepgPayTipsVC.swift; sourceTree = "<group>"; };
 		DD56B9A0FA2794322BB501F0 /* Pods_BubbleGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbleGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -217,6 +231,13 @@
 			isa = PBXGroup;
 			children = (
 				517CF26628475EE900D1DF3E /* GameTimer.swift */,
+				517CF2DB284A066900D1DF3E /* BaseModalTransitionVC.swift */,
+				517CF2DF284A31DE00D1DF3E /* Float+Extension.swift */,
+				517CF2DD284A11E500D1DF3E /* UStepgShotGoodsVC.swift */,
+				517CF2E3284C66A000D1DF3E /* UStepgCoinPayVC.swift */,
+				517CF2E5284CB60C00D1DF3E /* UStepgPaySuccessVC.swift */,
+				517CF2E7284CBB5400D1DF3E /* UStepgPayTipsVC.swift */,
+				517CF2E1284A3B3700D1DF3E /* UStepgStateButton.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -528,19 +549,24 @@
 				517CF2B228475EEA00D1DF3E /* ViewControllerPresenter.swift in Sources */,
 				517CF2A728475EEA00D1DF3E /* Game.swift in Sources */,
 				517CF2CE28475EEA00D1DF3E /* MenuViewController.swift in Sources */,
+				517CF2DE284A11E500D1DF3E /* UStepgShotGoodsVC.swift in Sources */,
 				517CF2D228475EEA00D1DF3E /* CircleView.swift in Sources */,
+				517CF2E6284CB60C00D1DF3E /* UStepgPaySuccessVC.swift in Sources */,
 				517CF2A528475EEA00D1DF3E /* Array+Slot.swift in Sources */,
 				517CF2A828475EEA00D1DF3E /* Slot.swift in Sources */,
+				517CF2E0284A31DE00D1DF3E /* Float+Extension.swift in Sources */,
 				517CF2D728475EEA00D1DF3E /* Color.swift in Sources */,
 				517CF2B428475EEA00D1DF3E /* UIView+MoveToSuperview.swift in Sources */,
 				517CF2A228475EEA00D1DF3E /* BoardDelegate.swift in Sources */,
 				517CF2D928475EEA00D1DF3E /* AlertActionFactory.swift in Sources */,
+				517CF2E8284CBB5400D1DF3E /* UStepgPayTipsVC.swift in Sources */,
 				517CF2A628475EEA00D1DF3E /* Board+SlotDelegate.swift in Sources */,
 				517CF2AF28475EEA00D1DF3E /* SlotLocation.swift in Sources */,
 				517CF2C528475EEA00D1DF3E /* GameBoardSlotView.swift in Sources */,
 				517CF2D028475EEA00D1DF3E /* Button.swift in Sources */,
 				517CF2A428475EEA00D1DF3E /* Board.swift in Sources */,
 				517CF2CF28475EEA00D1DF3E /* Button+BackgroundColor.swift in Sources */,
+				517CF2E4284C66A000D1DF3E /* UStepgCoinPayVC.swift in Sources */,
 				517CF2C628475EEA00D1DF3E /* GameBoardView+Audio.swift in Sources */,
 				517CF2B928475EEA00D1DF3E /* GameViewController.swift in Sources */,
 				517CF2D528475EEA00D1DF3E /* KeyConstants.swift in Sources */,
@@ -552,6 +578,7 @@
 				517CF2B128475EEA00D1DF3E /* GameTimer.swift in Sources */,
 				517CF2AE28475EEA00D1DF3E /* Circle.swift in Sources */,
 				517CF2AD28475EEA00D1DF3E /* BoardSize.swift in Sources */,
+				517CF2DC284A066900D1DF3E /* BaseModalTransitionVC.swift in Sources */,
 				517CF2A328475EEA00D1DF3E /* GameDelegate.swift in Sources */,
 				517CF23A28475A5700D1DF3E /* AppDelegate.swift in Sources */,
 				517CF2C428475EEA00D1DF3E /* GameBoardView+Subviews.swift in Sources */,
@@ -559,6 +586,7 @@
 				517CF2B528475EEA00D1DF3E /* GameOverViewController.swift in Sources */,
 				517CF2BB28475EEA00D1DF3E /* GameViewController+MenuViewControllerDelegate.swift in Sources */,
 				517CF2BA28475EEA00D1DF3E /* GameViewController+GameOverViewControllerDelegate.swift in Sources */,
+				517CF2E2284A3B3700D1DF3E /* UStepgStateButton.swift in Sources */,
 				517CF2D128475EEA00D1DF3E /* CircleView+Circle.swift in Sources */,
 				517CF2B828475EEA00D1DF3E /* StartViewController.swift in Sources */,
 				517CF2B328475EEA00D1DF3E /* UIView+CAAnimation.swift in Sources */,
@@ -712,6 +740,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHAD2RAXMV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BubbleGame/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "泡泡Bubble";
@@ -749,6 +778,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHAD2RAXMV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BubbleGame/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "泡泡Bubble";

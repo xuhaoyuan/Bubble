@@ -6,6 +6,7 @@ inhibit_all_warnings!
 
 
 target 'BubbleGame' do
+  pod 'XHYCategories'
   pod 'SnapKit'
   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
   pod 'SwiftLint'
